@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38213" started-at="2022-11-22T17:13:37Z" finished-at="2022-11-22T17:14:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="38213" started-at="2022-11-22T17:13:37Z" finished-at="2022-11-22T17:14:16Z">
+      <class name="com.auto.runner.Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="setUpClass" is-config="true" duration-ms="624" started-at="2022-11-22T17:13:38Z" finished-at="2022-11-22T17:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@118dcbbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="beforeClass" is-config="true" duration-ms="167" started-at="2022-11-22T17:13:38Z" finished-at="2022-11-22T17:13:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="runScenario" duration-ms="18334" started-at="2022-11-22T17:13:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-22T17:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality of the Zillow application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="runScenario" duration-ms="6718" started-at="2022-11-22T17:13:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-22T17:14:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality of the Zillow application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="runScenario" duration-ms="5694" started-at="2022-11-22T17:14:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-22T17:14:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality of the Zillow application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.auto.runner.Runner@fa36558]" name="runScenario" duration-ms="5591" started-at="2022-11-22T17:14:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-22T17:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality of the Zillow application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.auto.runner.Runner@fa36558]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-11-22T17:14:15Z" finished-at="2022-11-22T17:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.auto.runner.Runner@fa36558]" name="tearDownClass" is-config="true" duration-ms="1021" started-at="2022-11-22T17:14:15Z" finished-at="2022-11-22T17:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.auto.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
